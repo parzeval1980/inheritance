@@ -3,21 +3,27 @@ using namespace std;
 class Student
   
 {string name;
+ int age;
  public:
   
   Student (string name)
   {cin>>name;
+   cin>>age;
     cout<<"Hello "<<name;
   }
   Student()
   {
     cout<<"No Attendance\n";
   }
+  student(string name,int age)
 };
 int main()
 {string name;
+ int age;
+
   Student stdabs;
  Student stdpst (name);
+ Student std(name,age);
  //stdabs.Student();
  //stdpst.Student(name);
   return 0;
