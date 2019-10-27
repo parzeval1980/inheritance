@@ -13,11 +13,16 @@ class Student
   {
     cout<<"No Attendance\n";
   }
+  student(string name,int age)
+  {cout<<name;
+   cout<<age;
+  }
 };
 int main()
 {string name;
   Student stdabs;
  Student stdpst (name);
+ Student std(name,age);
  //stdabs.Student();
  //stdpst.Student(name);
   return 0;
